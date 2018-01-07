@@ -1,0 +1,15 @@
+<table class="table table-bordered table-hover table-striped">
+  {{#each product}}
+  <tr class="container col-lg-6">
+    
+  <img src="/image/product/{{this.product_Image}}" style="height:200px;width:200px" />
+  <p><strong>Name: </strong>{{this.Product_name}}</p>
+  <p><strong>Price: </strong>{{this.Price}}</p>
+  <p><strong>Quantity: </strong>{{this.Quantity}}</p>
+  <p><strong>Tax: </strong>{{this.Tax}}</p>
+  <p><strong>Description: </strong>{{this.Description}}</p>
+</tr>
+    {{/each}}
+
+
+</table>
